@@ -16,7 +16,7 @@ internal struct DBMS {
     }
 
     internal func query(name: String) -> Row? {
-        Thread.sleep(forTimeInterval: 1000)
+        Thread.sleep(forTimeInterval: 1)
 
         return self.dataBase[name]
     }

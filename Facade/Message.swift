@@ -21,6 +21,10 @@ internal struct Message {
         return "Birthday: \"\(self.row.birthday)\""
     }
 
+    internal func makeEmail() -> String {
+        return "Email: \"\(self.row.email)\""
+    }
+
     private let row: Row
 
 }
