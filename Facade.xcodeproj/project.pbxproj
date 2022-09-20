@@ -11,6 +11,7 @@
 		CE7E151C28D9445F009A6B66 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E151B28D9445F009A6B66 /* Row.swift */; };
 		CE7E151E28D944C7009A6B66 /* DBMS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E151D28D944C7009A6B66 /* DBMS.swift */; };
 		CE7E152028D94670009A6B66 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E151F28D94670009A6B66 /* Cache.swift */; };
+		CE7E152228D94736009A6B66 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E152128D94736009A6B66 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		CE7E151B28D9445F009A6B66 /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
 		CE7E151D28D944C7009A6B66 /* DBMS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBMS.swift; sourceTree = "<group>"; };
 		CE7E151F28D94670009A6B66 /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		CE7E152128D94736009A6B66 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				CE7E151B28D9445F009A6B66 /* Row.swift */,
 				CE7E151D28D944C7009A6B66 /* DBMS.swift */,
 				CE7E151F28D94670009A6B66 /* Cache.swift */,
+				CE7E152128D94736009A6B66 /* Message.swift */,
 			);
 			path = Facade;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 			files = (
 				CE7E151C28D9445F009A6B66 /* Row.swift in Sources */,
 				CE7E151E28D944C7009A6B66 /* DBMS.swift in Sources */,
+				CE7E152228D94736009A6B66 /* Message.swift in Sources */,
 				CE7E152028D94670009A6B66 /* Cache.swift in Sources */,
 				CE3660F728D7F10C00DAC9A9 /* main.swift in Sources */,
 			);
